@@ -30,9 +30,11 @@ a:focus-visible, summary:focus-visible { outline: 3px solid var(--orange); outli
 .site-header nav { display: flex; gap: 32px; font-size: 16px; font-weight: 600; }
 .site-header nav a { transition: color .2s; padding-block: 12px; }
 .site-header nav a:hover { color: var(--orange); }
-.header-cta { display: inline-flex; align-items: center; gap: 20px; font-size: 13px; font-weight: 700; }
-.header-cta span { display: grid; place-items: center; width: 32px; height: 32px; border: 1px solid var(--line); border-radius: 50%; font-size: 20px; transition: background .2s, color .2s; }
-.header-cta:hover span { background: var(--ink); color: white; }
+.header-cta { display: inline-flex; align-items: center; gap: 18px; min-height: 52px; padding: 7px 8px 7px 22px; border: 1px solid #d8e3d6; border-radius: 999px; background: #edf2e8; color: var(--ink); font-size: 15px; font-weight: 700; box-shadow: 0 3px 10px #183c3206; transition: background .25s, border-color .25s, box-shadow .25s, transform .25s; }
+.header-cta span { display: grid; place-items: center; width: 36px; height: 36px; flex: 0 0 auto; border: 1px solid transparent; border-radius: 50%; background: var(--ink); color: #fffefa; font-size: 22px; transition: background .25s, transform .25s; }
+.header-cta:hover { background: #e1eadb; border-color: #b9cbb6; box-shadow: 0 7px 18px #183c3212; transform: translateY(-2px); }
+.header-cta:hover span { background: var(--orange); transform: rotate(8deg); }
+.header-cta:active { transform: translateY(0); }
 /* Hero */
 .hero { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; align-items: center; padding-top: 64px; }
 h1 { font-family: var(--serif); font-size: clamp(56px, 5.5vw, 78px); font-weight: 500; letter-spacing: -3.4px; line-height: 1.04; margin-top: 24px; }
