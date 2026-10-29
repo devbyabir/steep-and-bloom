@@ -1,5 +1,13 @@
 # Steep & Bloom
 
+### A little pause. A better cup.
+
+[![Explore the Live Website](https://img.shields.io/badge/EXPLORE_THE_LIVE_WEBSITE-183C32?style=for-the-badge&logo=githubpages&logoColor=white)](https://devbyabir.github.io/steep-and-bloom/)
+
+**[Visit Steep & Bloom →](https://devbyabir.github.io/steep-and-bloom/)**
+
+Discover a warm tea-inspired experience, from colourful blends and fresh ingredients to small rituals worth slowing down for. Open the live website to explore the full design on desktop, tablet, or mobile.
+
 A warm, responsive tea-brand landing page built as part of my frontend learning journey. The page brings together a drink collection, a brand story, tasting notes, and a small tea journal.
 
 ## What I practiced
@@ -43,4 +51,4 @@ The original design file is preserved locally and excluded from Git tracking. Th
 
 ## Hosting
 
-Ready for GitHub Pages from the `main` branch and `/(root)` folder. A live demo link can be added after deployment is verified.
+Live on [GitHub Pages](https://devbyabir.github.io/steep-and-bloom/), published from the `main` branch and `/(root)` folder.
